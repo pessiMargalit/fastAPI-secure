@@ -6,6 +6,7 @@ fakeDB = {
     "johndoe": {
         "username": "johndoe",
         "email": "johndoe@example.com",
+        "city":"Jerusalem",
         "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
         "disabled": False,
         "created_time": "13:45:00",
