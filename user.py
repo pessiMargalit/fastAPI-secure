@@ -8,7 +8,6 @@ fakeDB = {
         "email": "johndoe@example.com",
         "city":"Jerusalem",
         "street":"Rabi Akiva",
-        "number_in_family":5,
         "hashed_password": "$2b$12$EixZaYVK1fsbw1ZfbX3OXePaWxn96p36WQoeG6Lruj3vjPGga31lW",
         "disabled": False,
         "created_time": "13:45:00",
