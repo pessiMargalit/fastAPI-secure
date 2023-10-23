@@ -67,6 +67,8 @@ def get_password_hash(password):
     return pwd_context.hash(password)
 
 
+#Get user from db.
+
 def get_user(db, username: str):
     if username in db:
         user_dict = db[username]

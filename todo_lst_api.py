@@ -49,7 +49,6 @@ async def read_users_me(current_user: BaseUser = Depends(get_current_active_user
     return current_user
 
 
-# title: str = Body(...), description: Optional[str] = Body(...)
 @app.post("/todos")
 async def create_todo(todo_content: TodoContent, current_user: BaseUser = Depends(get_current_user)):
     todo = Todo(**dict(todo_content), owner=current_user.username)
