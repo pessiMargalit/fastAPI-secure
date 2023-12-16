@@ -68,7 +68,3 @@ Welcome to the Secure Todo List API project! This project aims to provide a secu
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
